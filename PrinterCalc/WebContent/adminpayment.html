@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Администратор</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+<body>
+<form action="Payment" method="POST">
+<h2>Администратор</h2>
+	<div class="input_expend">
+		<div class="input_paper">
+		<strong>Расход бумаги: </strong>
+			<input name="paper"/>
+		<strong> упаковок</strong> <br>
+		</div>
+		<div class="input_toner">
+		<strong>Расход тонера: </strong>
+			<input name="toner"/>
+		<strong> штук</strong> <br>
+		</div>
+		<div class="input_red">
+		<strong>Расход красного: </strong>
+			<input name="red"/>
+		<strong> мл.</strong> <br>
+		</div>
+		<div class="input_blue">
+		<strong>Расход синего: </strong>
+			<input name="blue"/>
+		<strong> мл.</strong> <br>
+		</div>
+		<div class="input_black_color">
+		<strong>Расход черного: </strong>
+			<input name="black"/>
+		<strong> мл.</strong> <br>
+		</div>
+		<div class="input_yellow">
+		<strong>Расход желтого: </strong>
+			<input name="yellow"/>
+		<strong> мл.</strong>
+		</div>
+		
+	</div>
+	<div class="button_payment_admin">
+		<button name="Summ" value="payment">Расчет</button>
+	</div>
+</form>
+<form action="AdminBack">
+	<div class="button_exit">
+		<button name="exitButton" value="exit">Вернуться</button>
+	</div>
+</form>	
+</body>
+</html>

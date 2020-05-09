@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Работник</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+<h2>Работник</h2>
+<form action="Summ">
+	<div class="input_black">
+		<strong>Объем черно-белой печати: </strong>
+		<input name="blackwhite"/>
+		<strong> страниц</strong>
+	</div>
+	<div class="input_color">
+		<strong>Объем цветной печати: </strong>
+		<input name="colorPrint"/>
+		<strong> страниц</strong>
+	</div>
+	<div class="printer_models">
+		<strong>Модель принтера: </strong>
+		<select name="printer">
+		<option>HP LaserJet Pro M104a</option>
+		<option>Xerox Phaser 3020BI</option>
+		<option>Canon i-SENSYS LBP7010C</option></select>
+	</div>
+	
+	<div class="button_payment">
+		<button name="SummButton" value="summWorker">Расчет</button>
+	</div>
+</form>
+<form action="WorkerBack">
+	<div class="button_exit">
+		<button name="closeButton" value="close">Вернуться</button>
+	</div>
+</form>
+</body>
+</html>
